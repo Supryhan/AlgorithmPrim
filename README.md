@@ -1,0 +1,1 @@
+This is simple graph algorithm of how to connect all nodes in grapf to achive the most minimal connectivity.
