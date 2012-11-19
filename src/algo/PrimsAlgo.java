@@ -12,6 +12,7 @@ import java.util.List;
  * Date: 11/3/12
  * Time: 12:25 AM
  */
+// Some unnecessary comment was added.
 public class PrimsAlgo
 {
     private List<Node> listNodes;
