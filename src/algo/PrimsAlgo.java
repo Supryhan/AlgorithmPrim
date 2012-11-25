@@ -18,10 +18,14 @@ public class PrimsAlgo
     private List<Node> listNodes;
     private List<Node> resultNodesAlgorithm;
 
+<<<<<<< HEAD
     /**
      * Constructor
      */
     public PrimsAlgo()
+=======
+    public PrimsAlgo(String s)
+>>>>>>> newCommentAdded
     {
         resultNodesAlgorithm = new LinkedList<Node>();
         listNodes = new LinkedList<Node>();
@@ -188,6 +192,6 @@ public class PrimsAlgo
 
     public static void main(String[] args)
     {
-        new PrimsAlgo();
+        new PrimsAlgo("Hello");
     }
 }
