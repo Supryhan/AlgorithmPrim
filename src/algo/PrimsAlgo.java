@@ -18,7 +18,7 @@ public class PrimsAlgo
     private List<Node> listNodes;
     private List<Node> resultNodesAlgorithm;
 
-    public PrimsAlgo()
+    public PrimsAlgo(String s)
     {
         resultNodesAlgorithm = new LinkedList<Node>();
         listNodes = new LinkedList<Node>();
@@ -185,6 +185,6 @@ public class PrimsAlgo
 
     public static void main(String[] args)
     {
-        new PrimsAlgo();
+        new PrimsAlgo("Hello");
     }
 }
