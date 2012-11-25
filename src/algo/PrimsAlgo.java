@@ -18,6 +18,9 @@ public class PrimsAlgo
     private List<Node> listNodes;
     private List<Node> resultNodesAlgorithm;
 
+    /**
+     * Constructor
+     */
     public PrimsAlgo()
     {
         resultNodesAlgorithm = new LinkedList<Node>();
