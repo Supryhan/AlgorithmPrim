@@ -1,5 +1,3 @@
-package algo;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,21 +10,18 @@ import java.util.List;
  * Date: 11/3/12
  * Time: 12:25 AM
  */
-// Some unnecessary comment was added.
 public class PrimsAlgo
 {
     private List<Node> listNodes;
     private List<Node> resultNodesAlgorithm;
 
-<<<<<<< HEAD
     /**
      * Constructor
      */
-    public PrimsAlgo()
-=======
-    public PrimsAlgo(String s)
->>>>>>> newCommentAdded
-    {
+    public PrimsAlgo() {
+
+    }
+    public PrimsAlgo(String s) {
         resultNodesAlgorithm = new LinkedList<Node>();
         listNodes = new LinkedList<Node>();
         System.out.print("Hello, you will fill in values of your graph in this dialog. Type \"exit\" to finish.\n Input first vertex (only name): ");
